@@ -62,6 +62,58 @@ We built an **AI-Powered Student Collaboration & Innovation Ecosystem** that:
 ---
 
 ## 🏗️ System Architecture
+USERS
+      (Students / Mentors / Teams)
+                           │
+                           ▼
+
+        ┌────────────────────────────┐
+        │      FRONTEND LAYER        │
+        │ HTML • CSS • JavaScript    │
+        │ Login • Profile • Dashboard│
+        └─────────────┬──────────────┘
+                      │
+                      ▼
+
+        ┌────────────────────────────┐
+        │   APPLICATION MODULES      │
+        │ • Team Matching            │
+        │ • Startup Hub              │
+        │ • Mentor Recommendation    │
+        │ • Hackathon Portal         │
+        │ • Skill Showcase           │
+        │ • Leaderboard              │
+        └─────────────┬──────────────┘
+                      │
+                      ▼
+
+        ┌────────────────────────────┐
+        │         AI ENGINE          │
+        │ Gemini API Integration     │
+        │ • Startup Generation       │
+        │ • Success Prediction       │
+        │ • Innovation Analytics     │
+        └─────────────┬──────────────┘
+                      │
+                      ▼
+
+        ┌────────────────────────────┐
+        │       DATABASE LAYER       │
+        │ Student Data               │
+        │ Skills                     │
+        │ Startup Ideas              │
+        │ Mentor Records             │
+        └─────────────┬──────────────┘
+                      │
+                      ▼
+
+        ┌────────────────────────────┐
+        │        OUTPUT LAYER        │
+        │ Startup Ideas              │
+        │ Team Suggestions           │
+        │ Innovation Score           │
+        │ Dashboard Reports          │
+        └────────────────────────────┘
 ---
 
 ## ⚙️ Tech Stack
