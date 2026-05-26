@@ -22,9 +22,7 @@ startup ecosystem for students
 ## ✍️ Team Members
 - Akash Gowda. C  
 - Narayana  
-- Tejas  
-- H  
-- Ini  
+- Tejashini.P  
 - Ramya  
 - V. Ranjini  
 
